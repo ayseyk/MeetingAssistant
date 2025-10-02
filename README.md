@@ -1,4 +1,4 @@
-# Meeting Assistant (Streamlit)
+# Meeting Assistant
 
 ## Overview
 Meeting Assistant is a lightweight, local-first web app that turns your meeting audio into structured insights in minutes. Upload an audio file (mp3/wav/m4a/mov), the app transcribes it using OpenAI Whisper-1, then asks an OpenAI Chat model (gpt-4o-mini by default) to extract a concise summary, a list of decisions, and actionable tasks with owners and due dates. A built-in Q&A section lets you ask questions strictly grounded in the transcript. The app is designed to be simple, fast, and production-lean: single-page Streamlit UI, minimal dependencies, environment-based configuration, robust JSON parsing with safe fallbacks, and temporary-file management for large audio.
@@ -61,3 +61,7 @@ Then open `http://localhost:8501` in your browser.
 - ffmpeg/ffprobe not found: install ffmpeg as above. On macOS with Homebrew: `brew install ffmpeg`. You can also export specific paths via `FFMPEG_BINARY` and `FFPROBE_BINARY` env vars if needed.
 - Upload limit still 200MB: ensure `.streamlit/config.toml` exists with `[server] maxUploadSize = 1024` and restart Streamlit. A fresh browser reload may be required.
 - Port already in use: stop existing processes on `8501` (e.g., `lsof -ti tcp:8501 | xargs kill -9`) or run on another port with `--server.port`.
+
+<img width="1857" height="848" alt="Screenshot 2025-10-02 at 15 20 47" src="https://github.com/user-attachments/assets/8f435c04-b7fb-4e47-964c-5be952ad7ba5" />
+
+<img width="1848" height="819" alt="Screenshot 2025-10-02 at 15 20 57" src="https://github.com/user-attachments/assets/a2a201aa-5bc5-4f59-9ae6-df4af06245e4" />
