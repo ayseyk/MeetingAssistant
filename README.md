@@ -64,4 +64,5 @@ Then open `http://localhost:8501` in your browser.
 
 <img width="1857" height="848" alt="Screenshot 2025-10-02 at 15 20 47" src="https://github.com/user-attachments/assets/8f435c04-b7fb-4e47-964c-5be952ad7ba5" />
 
-<img width="1848" height="819" alt="Screenshot 2025-10-02 at 15 20 57" src="https://github.com/user-attachments/assets/a2a201aa-5bc5-4f59-9ae6-df4af06245e4" />
+<img width="1848" height="819" alt="Screenshot 2025-10-02 at 15 20 57" src="https://github.com/user-attachments/assets/4fdec2be-1727-4691-a0cb-e4168d7d388f" />
+
